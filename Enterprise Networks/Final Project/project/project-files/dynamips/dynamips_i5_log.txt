@@ -1,0 +1,30 @@
+Oct 02 18:23:44.498 HYPERVISOR: Release 0.2.23-amd64/Darwin (tag 2023010200)
+Oct 02 18:23:44.499 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55814.
+Oct 02 18:23:44.506 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 02 18:23:44.506 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/debojyotimishra/GNS3/projects/project/project-files/dynamips 
+Oct 02 18:23:44.506 GENERAL: working_dir=/Users/debojyotimishra/GNS3/projects/project/project-files/dynamips
+Oct 02 18:23:44.507 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/debojyotimishra/GNS3/projects/project/project-files/dynamips/320cb2e7-4c13-4492-95f3-b48a77e602b5 
+Oct 02 18:23:44.507 GENERAL: working_dir=/Users/debojyotimishra/GNS3/projects/project/project-files/dynamips/320cb2e7-4c13-4492-95f3-b48a77e602b5
+Oct 02 18:23:44.507 HYPERVISOR: exec_cmd: vm create R5 5 c7200 
+Oct 02 18:23:44.507 VM: VM R5 created.
+Oct 02 18:23:44.508 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5006 
+Oct 02 18:23:44.508 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Oct 02 18:23:44.508 HYPERVISOR: exec_cmd: vm get_status R5 
+Oct 02 18:23:44.508 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Oct 02 18:23:44.509 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Oct 02 18:23:44.509 HYPERVISOR: exec_cmd: vm get_status R5 
+Oct 02 18:23:44.509 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x0 
+Oct 02 18:23:44.509 HYPERVISOR: exec_cmd: vm set_ios R5 /Users/debojyotimishra/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.S6.image 
+Oct 02 18:23:44.510 HYPERVISOR: exec_cmd: c7200 set_mac_addr R5 ca05.a50b.0000 
+Oct 02 18:23:44.510 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Oct 02 18:23:44.510 HYPERVISOR: exec_cmd: vm set_ram R5 512 
+Oct 02 18:23:44.511 HYPERVISOR: exec_cmd: vm get_status R5 
+Oct 02 18:23:44.511 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 PA-GE 
+Oct 02 18:23:44.511 HYPERVISOR: exec_cmd: vm get_status R5 
+Oct 02 18:23:44.511 HYPERVISOR: exec_cmd: vm slot_add_binding R5 2 0 PA-GE 
+Oct 02 18:23:44.511 HYPERVISOR: exec_cmd: vm get_status R5 
+Oct 02 18:23:44.512 HYPERVISOR: exec_cmd: vm slot_add_binding R5 3 0 PA-2FE-TX 
+Oct 02 18:23:44.530 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5006 
+Oct 02 18:23:45.940 HYPERVISOR: exec_cmd: nio create_udp udp-4e7a2c03-1025-4218-a7dc-b85f1ade1c2d 10028 127.0.0.1 10029 
+Oct 02 18:23:46.173 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 0 0 udp-4e7a2c03-1025-4218-a7dc-b85f1ade1c2d 
+Oct 02 18:23:46.173 HYPERVISOR: exec_cmd: vm get_status R5 
